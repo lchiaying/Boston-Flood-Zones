@@ -11936,12 +11936,12 @@ $( document ).ready(show_code);
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Package-Installations">Package Installations<a class="anchor-link" href="#Package-Installations">&#182;</a></h3><p>The Anaconda installations of Python already has <code>matplotlib</code> installed. We'll need to manually install <code>shapefile</code> and <code>gmplot</code>.</p>
+<h3 id="Package-Installations">Package Installations<a class="anchor-link" href="#Package-Installations">&#182;</a></h3><p>The Anaconda installations of Python already has <code>matplotlib</code> installed. We'll need to manually install <code>pyshp</code> (which contains <code>shapefile</code>) and <code>gmplot</code>.</p>
 <p><strong>Action Item</strong> Open Anaconda prompt and run the following,</p>
-<blockquote><p><code>pip install shapefile</code><br>
+<blockquote><p><code>conda install pyshp</code><br>
 <code>pip install gmplot</code></p>
 </blockquote>
-<p>Note <code>conda install</code> does not work with these modules because they are not in the conda repository.</p>
+<p>Note <code>conda install</code> does not work with <code>gmplot</code> because it is not in the conda repository.</p>
 
 </div>
 </div>
